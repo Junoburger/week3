@@ -24,8 +24,6 @@ truncatedTotal = truncate(total)
 
 dollars = int(str(truncatedTotal).rsplit('.')[0])
 cents = int(str(truncatedTotal).rsplit('.')[1])
-dollarStr = "dollar"
-
 
 print("The total is", dollars,
       "dollars" if dollars > 1 else "dollar",
